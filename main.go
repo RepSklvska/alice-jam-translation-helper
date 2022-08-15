@@ -90,5 +90,5 @@ func ReadDialogFileToJson(path string) error {
 func main() {
 	os.Chdir(BasePath)
 	os.Chdir(ScenarioTextPath)
-	ReadDialogFileToJson(TestFile)
+	ReadDialogFileToJson("./samples/195/僔僫儕僆HTLO_S001_A.jam")
 }

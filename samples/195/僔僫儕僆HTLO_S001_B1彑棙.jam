@@ -1,0 +1,454 @@
+﻿FUNC 僔僫儕僆戞01榖_B彑棙	// void 僔僫儕僆戞01榖_B彑棙()
+_僔僫儕僆戞01榖_B彑棙:
+	CALLFUNC 僔僫儕僆奐巒
+	IFZ _僔僫儕僆戞01榖_B彑棙_label0
+	CALLFUNC 僔僫儕僆廔椆
+	RETURN
+	JUMP _僔僫儕僆戞01榖_B彑棙_label0
+_僔僫儕僆戞01榖_B彑棙_label0:
+	PUSH 10188
+	PUSH 500
+	PUSH 100
+	CALLFUNC 俛俧俵嵞惗	//nBGM, nFadeTime, nVolume
+	PUSH 18129
+	PUSH 1
+	PUSH 600
+	PUSH 50
+	PUSH 50
+	PUSH 1
+	CALLFUNC 攚宨愗懼	//nCG, nEffect, nTime, nPerX, nPerY, bMsgWindow嶍彍
+	S_PUSH "Empire"
+	S_PUSH "Yumishirogahara"
+	CALLFUNC 応強愝掕	//sz応強A, sz応強B
+	PUSH 0
+	PUSH 30028
+	PUSH 4
+	PUSH 1
+	PUSH 600
+	PUSH 1
+	PUSH 1
+	PUSH 1
+	CALLFUNC 恖暔愝掕	//nInNo, nInCG, nIn埵抲, nMode, nTime, bKeyCancel, bKeySkip, bReadSkip
+	S_PUSH "Hana Kunohara"
+	CALLFUNC NAME	//szName
+	'"Commander, we won."' A
+	S_PUSH "Yatarou Shirahase"
+	CALLFUNC NAME	//szName
+	'"Hmph, they were pretty good, eh?"' A
+	S_PUSH "Hana Kunohara"
+	CALLFUNC NAME	//szName
+	'"All the same, did these Human Tanks belong to' R
+	' the rebel forces?"' A
+	S_PUSH "Yatarou Shirahase"
+	CALLFUNC NAME	//szName
+	'"The enemy commander escaped before we could' R
+	' confirm."' A
+	S_PUSH "Hana Kunohara"
+	CALLFUNC NAME	//szName
+	'"But if they are with the rebels, they sure are' R
+	' expending a lot of Human Tanks just for an' R
+	' ambush. They must be stronger than we thought."' A
+	S_PUSH "Yatarou Shirahase"
+	CALLFUNC NAME	//szName
+	'"I\'m also impressed by the number of those' R
+	' operational tanks they sent for the ambush."' A
+	S_PUSH "Hana Kunohara"
+	CALLFUNC NAME	//szName
+	'"As long as they\'re operational, Human Tanks are' R
+	' far more powerful weapons than artillery. We' R
+	' really should have cleaned them all up."' A
+	S_PUSH "Yatarou Shirahase"
+	CALLFUNC NAME	//szName
+	'"Right, as long as they\'re operational."' A
+	S_PUSH "Hana Kunohara"
+	CALLFUNC NAME	//szName
+	'"The enemy is no longer in sight, but we can\'t' R
+	' let our guard down. Let\'s call Mihari back here' R
+	' immediately."' A
+	S_PUSH "Yatarou Shirahase"
+	CALLFUNC NAME	//szName
+	'"You\'re right. We\'re running low on Human Tanks' R
+	' too. Let\'s have Mihari scout for the enemy while' R
+	' we advance."' A
+	S_PUSH "Hana Kunohara"
+	CALLFUNC NAME	//szName
+	PUSH 31091
+	CALLFUNC FACE	//nFace
+	'"Mihari! Prepare to scout immediately."' A
+	S_PUSH "Hana Kunohara"
+	CALLFUNC NAME	//szName
+	4 '"............"' A
+	S_PUSH "Hana Kunohara"
+	CALLFUNC NAME	//szName
+	'"...Commander."' A
+	S_PUSH "Yatarou Shirahase"
+	CALLFUNC NAME	//szName
+	1 '"What is it?"' A
+	S_PUSH "Hana Kunohara"
+	CALLFUNC NAME	//szName
+	'"Scout Tank \'Mihari\' isn\'t here."' A
+	S_PUSH "Yatarou Shirahase"
+	CALLFUNC NAME	//szName
+	'"Not here? That can\'t be. We ordered her to wait' R
+	' in the rear. What, is she hiding or something?"' A
+	S_PUSH "Hana Kunohara"
+	CALLFUNC NAME	//szName
+	PUSH 31091
+	CALLFUNC FACE	//nFace
+	'"Mihari! Stop hiding and get out here!"' A
+	PUSH 600
+	PUSH 1
+	PUSH 60009
+	CALLFUNC 夋柺敋敪	//nTime, bInMsgWindow嶍彍, nInSound
+	S_PUSH "Yatarou Shirahase"
+	CALLFUNC NAME	//szName
+	'"...An explosion? What was that sound?"' A
+	S_PUSH "Hana Kunohara"
+	CALLFUNC NAME	//szName
+	PUSH 31091
+	CALLFUNC FACE	//nFace
+	'"That sounded like a Human Tank exploding!"' A
+	S_PUSH "Yatarou Shirahase"
+	CALLFUNC NAME	//szName
+	'"Hana! They\'re here!! There they are!!"' A
+	PUSH 16502
+	PUSH 1
+	PUSH 600
+	PUSH 50
+	PUSH 50
+	PUSH 1
+	CALLFUNC 攚宨愗懼	//nCG, nEffect, nTime, nPerX, nPerY, bMsgWindow嶍彍
+	S_PUSH ""
+	S_PUSH ""
+	CALLFUNC 応強愝掕	//sz応強A, sz応強B
+	PUSH 1400
+	PUSH 1
+	CALLFUNC 掆巭	//nTime, bMsgWindow嶍彍
+	PUSH 19169
+	PUSH 1
+	PUSH 600
+	PUSH 50
+	PUSH 50
+	PUSH 1
+	CALLFUNC 攚宨愗懼	//nCG, nEffect, nTime, nPerX, nPerY, bMsgWindow嶍彍
+	PUSH 3000
+	PUSH 1
+	CALLFUNC 掆巭	//nTime, bMsgWindow嶍彍
+	PUSH 16502
+	PUSH 1
+	PUSH 600
+	PUSH 50
+	PUSH 50
+	PUSH 1
+	CALLFUNC 攚宨愗懼	//nCG, nEffect, nTime, nPerX, nPerY, bMsgWindow嶍彍
+	PUSH 18151
+	PUSH 1
+	PUSH 600
+	PUSH 50
+	PUSH 50
+	PUSH 1
+	CALLFUNC 攚宨愗懼	//nCG, nEffect, nTime, nPerX, nPerY, bMsgWindow嶍彍
+	PUSH 600
+	PUSH 1
+	PUSH 60009
+	CALLFUNC 夋柺敋敪	//nTime, bInMsgWindow嶍彍, nInSound
+	S_PUSH "Mihari"
+	CALLFUNC NAME	//szName
+	PUSH 31108
+	CALLFUNC FACE	//nFace
+	CALLFUNC 暥帤僒僀僘戝
+	'"Ahhhhhh!!!"' A
+	S_PUSH "Hana Kunohara"
+	CALLFUNC NAME	//szName
+	'"Damn, another ambush?!"' A
+	PUSH 19176
+	PUSH 40
+	PUSH 400
+	PUSH 50
+	PUSH 50
+	PUSH 1
+	CALLFUNC 攚宨愗懼	//nCG, nEffect, nTime, nPerX, nPerY, bMsgWindow嶍彍
+	S_PUSH "Hana Kunohara"
+	CALLFUNC NAME	//szName
+	PUSH 31091
+	CALLFUNC FACE	//nFace
+	1 '"Commander! Scout Tank \'Mihari\' is under attack!"' A
+	S_PUSH "Mihari"
+	CALLFUNC NAME	//szName
+	PUSH 31109
+	CALLFUNC FACE	//nFace
+	1 '"I haven\'t been hit yet, sir!"' A
+	S_PUSH "Hana Kunohara"
+	CALLFUNC NAME	//szName
+	PUSH 31091
+	CALLFUNC FACE	//nFace
+	1 '"Then get out of there quick!"' A
+	S_PUSH "Mihari"
+	CALLFUNC NAME	//szName
+	PUSH 31103
+	CALLFUNC FACE	//nFace
+	CALLFUNC 暥帤僒僀僘戝
+	1 '"Not yet!"' A
+	PUSH 16502
+	PUSH 1
+	PUSH 600
+	PUSH 50
+	PUSH 50
+	PUSH 1
+	CALLFUNC 攚宨愗懼	//nCG, nEffect, nTime, nPerX, nPerY, bMsgWindow嶍彍
+	PUSH 1000
+	PUSH 1
+	CALLFUNC 掆巭	//nTime, bMsgWindow嶍彍
+	PUSH 19170
+	PUSH 45
+	PUSH 600
+	PUSH 50
+	PUSH 50
+	PUSH 1
+	CALLFUNC 攚宨愗懼	//nCG, nEffect, nTime, nPerX, nPerY, bMsgWindow嶍彍
+	PUSH 3000
+	PUSH 1
+	CALLFUNC 掆巭	//nTime, bMsgWindow嶍彍
+	PUSH 16502
+	PUSH 45
+	PUSH 600
+	PUSH 50
+	PUSH 50
+	PUSH 1
+	CALLFUNC 攚宨愗懼	//nCG, nEffect, nTime, nPerX, nPerY, bMsgWindow嶍彍
+	PUSH 18151
+	PUSH 1
+	PUSH 600
+	PUSH 50
+	PUSH 50
+	PUSH 1
+	CALLFUNC 攚宨愗懼	//nCG, nEffect, nTime, nPerX, nPerY, bMsgWindow嶍彍
+	S_PUSH "Enemy Human Tank"
+	CALLFUNC NAME	//szName
+	PUSH 31045
+	CALLFUNC FACE	//nFace
+	1 '"Eat this!!"' A
+	PUSH 60216
+	PUSH 100
+	CALLFUNC 岠壥壒嵞惗	//nSOUND, nVolume
+	S_PUSH "Mihari"
+	CALLFUNC NAME	//szName
+	PUSH 31103
+	CALLFUNC FACE	//nFace
+	1 '"I, I\'ll counterattack!!"' A
+	1 '*Thud*.' A
+	S_PUSH "Mihari"
+	CALLFUNC NAME	//szName
+	PUSH 31094
+	CALLFUNC FACE	//nFace
+	1 '"...Huh?"' A
+	S_PUSH "Mihari"
+	CALLFUNC NAME	//szName
+	PUSH 31104
+	CALLFUNC FACE	//nFace
+	1 '"My pistol... it\'s too heavy...?"' A
+	PUSH 19176
+	PUSH 1
+	PUSH 400
+	PUSH 50
+	PUSH 50
+	PUSH 1
+	CALLFUNC 攚宨愗懼	//nCG, nEffect, nTime, nPerX, nPerY, bMsgWindow嶍彍
+	S_PUSH "Mihari"
+	CALLFUNC NAME	//szName
+	PUSH 31104
+	CALLFUNC FACE	//nFace
+	1 '"The equipment... my gun... why can\'t I lift' R
+	1 ' them!?"' A
+	S_PUSH "Mihari"
+	CALLFUNC NAME	//szName
+	PUSH 31103
+	CALLFUNC FACE	//nFace
+	1 '"I, I feel so weak!"' A
+	PUSH 16502
+	PUSH 40
+	PUSH 400
+	PUSH 50
+	PUSH 50
+	PUSH 1
+	CALLFUNC 攚宨愗懼	//nCG, nEffect, nTime, nPerX, nPerY, bMsgWindow嶍彍
+	PUSH 1000
+	PUSH 1
+	CALLFUNC 掆巭	//nTime, bMsgWindow嶍彍
+	PUSH 19171
+	PUSH 35
+	PUSH 600
+	PUSH 50
+	PUSH 50
+	PUSH 1
+	CALLFUNC 攚宨愗懼	//nCG, nEffect, nTime, nPerX, nPerY, bMsgWindow嶍彍
+	PUSH 3000
+	PUSH 1
+	CALLFUNC 掆巭	//nTime, bMsgWindow嶍彍
+	PUSH 16502
+	PUSH 1
+	PUSH 600
+	PUSH 50
+	PUSH 50
+	PUSH 1
+	CALLFUNC 攚宨愗懼	//nCG, nEffect, nTime, nPerX, nPerY, bMsgWindow嶍彍
+	PUSH 19176
+	PUSH 1
+	PUSH 500
+	PUSH 50
+	PUSH 50
+	PUSH 1
+	CALLFUNC 攚宨愗懼	//nCG, nEffect, nTime, nPerX, nPerY, bMsgWindow嶍彍
+	S_PUSH "Hana Kunohara"
+	CALLFUNC NAME	//szName
+	PUSH 31087
+	CALLFUNC FACE	//nFace
+	1 '"Could it be that she\'s at her limit?"' A
+	S_PUSH "Mihari"
+	CALLFUNC NAME	//szName
+	PUSH 31104
+	CALLFUNC FACE	//nFace
+	1 '"Is this as far as I go, today?"' A
+	PUSH 19178
+	PUSH 1
+	PUSH 500
+	PUSH 50
+	PUSH 50
+	PUSH 1
+	CALLFUNC 攚宨愗懼	//nCG, nEffect, nTime, nPerX, nPerY, bMsgWindow嶍彍
+	S_PUSH "Hana Kunohara"
+	CALLFUNC NAME	//szName
+	PUSH 31091
+	CALLFUNC FACE	//nFace
+	CALLFUNC 暥帤僒僀僘戝
+	1 '"Mihari!! Watch out!!"' A
+	S_PUSH "Mihari"
+	CALLFUNC NAME	//szName
+	PUSH 31108
+	CALLFUNC FACE	//nFace
+	1 '"I, I\'m done for!!"' A
+	PUSH 16503
+	PUSH 1
+	PUSH 400
+	PUSH 50
+	PUSH 50
+	PUSH 1
+	CALLFUNC 攚宨愗懼	//nCG, nEffect, nTime, nPerX, nPerY, bMsgWindow嶍彍
+	PUSH 60216
+	PUSH 100
+	CALLFUNC 岠壥壒嵞惗	//nSOUND, nVolume
+	PUSH 1000
+	PUSH 1
+	CALLFUNC 掆巭	//nTime, bMsgWindow嶍彍
+	PUSH 600
+	PUSH 1
+	PUSH 60009
+	CALLFUNC 夋柺敋敪	//nTime, bInMsgWindow嶍彍, nInSound
+	PUSH 16502
+	PUSH 1
+	PUSH 600
+	PUSH 50
+	PUSH 50
+	PUSH 1
+	CALLFUNC 攚宨愗懼	//nCG, nEffect, nTime, nPerX, nPerY, bMsgWindow嶍彍
+	PUSH 6000
+	CALLFUNC 俛俧俵掆巭	//nFadeTime
+	PUSH 60150
+	PUSH 100
+	CALLFUNC 岠壥壒嵞惗	//nSOUND, nVolume
+	PUSH 1000
+	PUSH 1
+	CALLFUNC 掆巭	//nTime, bMsgWindow嶍彍
+	S_PUSH "Mihari"
+	CALLFUNC NAME	//szName
+	PUSH 31104
+	CALLFUNC FACE	//nFace
+	1 '"Huh...?"' A
+	1 'The enemy Human Tank was about to shoot! But' R
+	1 'something intercepted it...' A
+	PUSH 19177
+	PUSH 1
+	PUSH 1000
+	PUSH 50
+	PUSH 50
+	PUSH 1
+	CALLFUNC 攚宨愗懼	//nCG, nEffect, nTime, nPerX, nPerY, bMsgWindow嶍彍
+	PUSH 1000
+	PUSH 1
+	CALLFUNC 掆巭	//nTime, bMsgWindow嶍彍
+	1 'A lone and beautiful Human Tank.' A
+	S_PUSH "Mihari"
+	CALLFUNC NAME	//szName
+	PUSH 31109
+	CALLFUNC FACE	//nFace
+	1 '"You saved me?"' A
+	1 'The unknown tank turned her head and said...' A
+	PUSH 19174
+	PUSH 1
+	PUSH 600
+	PUSH 50
+	PUSH 50
+	PUSH 1
+	CALLFUNC 攚宨愗懼	//nCG, nEffect, nTime, nPerX, nPerY, bMsgWindow嶍彍
+	S_PUSH "Mysterious Human Tank"
+	CALLFUNC NAME	//szName
+	PUSH 31129
+	CALLFUNC FACE	//nFace
+	1 '"Can you still fight?"' A
+	1 'So I...' A
+	S_PUSH "Mihari"
+	CALLFUNC NAME	//szName
+	PUSH 31103
+	CALLFUNC FACE	//nFace
+	1 '"I..."' A
+	PUSH 16502
+	PUSH 1
+	PUSH 600
+	PUSH 50
+	PUSH 50
+	PUSH 1
+	CALLFUNC 攚宨愗懼	//nCG, nEffect, nTime, nPerX, nPerY, bMsgWindow嶍彍
+	PUSH 19172
+	PUSH 1
+	PUSH 400
+	PUSH 50
+	PUSH 50
+	PUSH 1
+	CALLFUNC 攚宨愗懼	//nCG, nEffect, nTime, nPerX, nPerY, bMsgWindow嶍彍
+	PUSH 2000
+	PUSH 1
+	CALLFUNC 掆巭	//nTime, bMsgWindow嶍彍
+	PUSH 600
+	CALLFUNC 俛俧俵掆巭	//nFadeTime
+	PUSH 16503
+	PUSH 1
+	PUSH 200
+	PUSH 50
+	PUSH 50
+	PUSH 1
+	CALLFUNC 攚宨愗懼	//nCG, nEffect, nTime, nPerX, nPerY, bMsgWindow嶍彍
+	PUSH 19173
+	PUSH 1
+	PUSH 600
+	PUSH 50
+	PUSH 50
+	PUSH 1
+	CALLFUNC 攚宨愗懼	//nCG, nEffect, nTime, nPerX, nPerY, bMsgWindow嶍彍
+	PUSH 50019
+	PUSH 100
+	CALLFUNC 岠壥壒嵞惗	//nSOUND, nVolume
+	PUSH 5000
+	PUSH 1
+	CALLFUNC 掆巭	//nTime, bMsgWindow嶍彍
+	PUSH 16502
+	PUSH 1
+	PUSH 1400
+	PUSH 50
+	PUSH 50
+	PUSH 1
+	CALLFUNC 攚宨愗懼	//nCG, nEffect, nTime, nPerX, nPerY, bMsgWindow嶍彍
+	CALLFUNC 俤俢儉乕價乕捠忢幚峴
+	CALLFUNC 僔僫儕僆廔椆
+	RETURN
+	ENDFUNC 僔僫儕僆戞01榖_B彑棙
+	EOF "HT僔僫儕僆\\僔僫儕僆杮懱\\杮曇1\\僔僫儕僆HTLO_S001_B1彑棙.jaf"
