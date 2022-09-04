@@ -3,6 +3,8 @@ ScenarioTextPath = "HT僔僫儕僆\\僔僫儕僆杮懱\\"
 TestFile = "杮曇1\\僔僫儕僆HTLO_S001_A.jam"
 SampleFile = "samples\\195\\僔僫儕僆HTLO_S001_A.jam"
 
+import json
+
 
 def ExtractString(str, char):
 	str = str.strip()
@@ -51,4 +53,12 @@ def ReadJamDialogToInfo(filename):
 
 
 sampleDialogInfo = ReadJamDialogToInfo(SampleFile)
-print(sampleDialogInfo)
+# print(sampleDialogInfo)
+jsonInfo = json.dumps(sampleDialogInfo, indent="\t", sort_keys=True, ensure_ascii=False)
+print(jsonInfo)
+
+
+# 读取单个文件的已经完成,剩下的是用这个文件写入的过程
+
+def ReadJsonRewriteJam():
+	a = 114514
